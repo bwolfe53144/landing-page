@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #1f2937;
+    padding: 0;
+    margin: 0;
+}
+
+.header .footer {
+    flex: none;
+}
+
+.header {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding-right: 24px;
+    font-size: 24px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.header-right {
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.media-one {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    gap: 90px;
+    padding: 60px;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color:#3882f6;
+    color: white;
+  }
+
+.img-one {
+    border: 0px;
+    width: 600px;
+    height: 300px;
+}
+
+button.sign-up-one {
+    border: 1px solid royalblue;
+  }
+
+  button.sign-up-two {
+    border: 1px solid white;
+  }
+
+.media-two {
+    margin-top: 24px;
+    padding: 60px 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.title-two {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.text-two {
+    color: black;
+    font-size: 30px;
+}
+
+.img-two {
+    border: 5px solid #3882f6;
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 120px;
+    font-size: 36px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.last-bar {
+    display: flex;
+    padding: 30px;
+    border: 40px solid white;
+    background-color: #3882f6;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.last-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.last-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    font-size: 24px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+    flex: 1 1 1;
+}
