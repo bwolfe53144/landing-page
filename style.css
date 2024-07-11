@@ -4,11 +4,6 @@ body {
     margin: 0;
     background-color: #1f2937;
     padding: 0;
-    margin: 0;
-}
-
-.header .footer {
-    flex: none;
 }
 
 .header {
@@ -19,6 +14,7 @@ body {
     padding-right: 24px;
     font-size: 24px;
     align-items: center;
+    flex: auto;
 }
 
 a {
@@ -40,6 +36,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 
 .media-one {
@@ -68,10 +65,14 @@ a {
     font-size: 20px;
     text-align: left;
 }
-
+/* edited both buttons */
 button {
+    width: 140px;
+    height: 45px;
     cursor: pointer;
     padding: 8px 16px;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 8px;
     background-color:#3882f6;
     color: white;
@@ -84,11 +85,11 @@ button {
 }
 
 button.sign-up-one {
-    border: 1px solid royalblue;
+    border: 4px solid #3882f6;
   }
 
   button.sign-up-two {
-    border: 1px solid white;
+    border: 3px solid white;
   }
 
 .media-two {
@@ -123,6 +124,8 @@ button.sign-up-one {
 
 .img-two {
     border: 5px solid #3882f6;
+/* added border-radius to round corners*/
+    border-radius: 25px;
     width: 100px;
     height: 100px;
 }
@@ -143,23 +146,27 @@ button.sign-up-one {
     text-align: right;
 }
 
-.last-bar {
-    display: flex;
-    padding: 30px;
-    border: 40px solid white;
-    background-color: #3882f6;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.last-container {
+background-color: white;
 }
 
-.last-container {
+.bar-contents {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 100px 300px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.last-bar {
     display: flex;
     flex-direction: column;
-
 }
 
 .last-header {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bolder;
     color: white;
 }
@@ -173,5 +180,6 @@ button.sign-up-one {
     align-items: center;
     justify-content: center;
     padding: 32px 16px;
-    flex: 1 1 1;
 }
+
+
